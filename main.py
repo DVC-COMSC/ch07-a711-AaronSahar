@@ -10,10 +10,6 @@ width = 0.15
 labels = ['Math', 'English', 'Physics', 'Computer']
 names = ['Bill', 'Mary']
 
-# ******************************
-# Make your code
-# ******************************
-
 fig, ax = plt.subplots()
 rect1 = ax.bar(x-width*1.5, Math, width, label='Math')
 rect2 = ax.bar(x-width*.5, English, width, label='English')
@@ -31,22 +27,3 @@ ax.bar_label(rect4, padding=3)
 plt.show
 
 fig.savefig('A11.png')
-
-
-#import matplotlib.pyplot as plt
-
-#data1 = [100, 90, 80, 60]
-#data2 = [90, 80, 70, 100]
-#labels = ['Math', 'English', 'Physics', 'Computer']
-#names = ['Bill', 'Mary']
-
-#fig, ax = plt.subplots()
-
-#ax.bar(labels, data1, label='Bill')
-#ax.bar(labels, data2, bottom=data1, label='Mary')
-#ax.legend()
-#ax.set_title('Stacked graph for scores')
-
-#plt.show()
-
-#fig.savefig('A10.png')
