@@ -20,7 +20,6 @@ rect2 = ax.bar(x-width*.5, English, width, label='English')
 rect3 = ax.bar(x+width*.5, Physics, width, label='Physics')
 rect4 = ax.bar(x+width*1.5, Computer, width, label='Computer')
 
-
 ax.set_title('Grouped graph for scores')
 ax.legend()
 ax.set_xticks(x, names)
